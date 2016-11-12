@@ -1,7 +1,7 @@
 {
   "name": "m-tasker",
   "version": "1.0.0",
-  "description": "mini task list running",
+  "description": "mini task runner that can support async。",
   "main": "index.js",
   "directories": {
     "test": "test"
