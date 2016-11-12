@@ -1,0 +1,21 @@
+{
+  "name": "m-tasker",
+  "version": "1.0.0",
+  "description": "mini task list running",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [
+    "tasker"
+  ],
+  "author": "hawk",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
