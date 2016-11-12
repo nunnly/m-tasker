@@ -1,7 +1,6 @@
 const assert = require('assert');
 const Tasker = require('../index.js');
 
-
 describe('Stack',function(){
   it('create Stack', function(){
     it('new Stack', function(){
@@ -50,6 +49,15 @@ describe('Stack',function(){
     });
     app.run();
   })
+  it('setEnd error process', function(done){
+    const app = new Tasker();
+    try{
+      app.setEnd(11)      
+    }catch(e){
+      done();
+    }
+  });
+
   it('running async tasklist', function(done){
     const arr = [];
     const app = new Tasker();
